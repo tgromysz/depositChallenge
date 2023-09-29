@@ -9,7 +9,7 @@ public class Main {
 
         float income = deposit * numDays * interestRate / dayInYear;
 
-        System.out.println("Bez podatku zarobisz: " + income );
+        System.out.println("Bez podatku zarobisz: " + income);
 
         float tax = income * taxRate;
 
